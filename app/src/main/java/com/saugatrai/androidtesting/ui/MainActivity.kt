@@ -1,7 +1,8 @@
-package com.saugatrai.androidtesting
+package com.saugatrai.androidtesting.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.saugatrai.androidtesting.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

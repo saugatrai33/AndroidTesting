@@ -7,9 +7,6 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import com.google.common.truth.Truth.assertThat
 import com.saugatrai.androidtesting.getOrAwaitValue
-import com.saugatrai.androidtesting.previous.data.local.ShoppingDao
-import com.saugatrai.androidtesting.previous.data.local.ShoppingItem
-import com.saugatrai.androidtesting.previous.data.local.ShoppingItemDatabase
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
 import org.junit.After
@@ -35,7 +32,7 @@ class ShoppingDaoTest {
             ApplicationProvider.getApplicationContext(),
             ShoppingItemDatabase::class.java,
         ).allowMainThreadQueries().build()
-        dao = shoppingItemDatabase.shoppingshoppingDao()
+        dao = shoppingItemDatabase.shoppingDao()
     }
 
     @After

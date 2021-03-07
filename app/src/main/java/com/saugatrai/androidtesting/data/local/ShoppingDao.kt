@@ -1,4 +1,4 @@
-package com.saugatrai.androidtesting.previous.data.local
+package com.saugatrai.androidtesting.data.local
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

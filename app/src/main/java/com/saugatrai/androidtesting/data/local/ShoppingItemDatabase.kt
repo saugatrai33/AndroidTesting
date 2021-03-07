@@ -1,4 +1,4 @@
-package com.saugatrai.androidtesting.previous.data.local
+package com.saugatrai.androidtesting.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
@@ -9,5 +9,5 @@ import androidx.room.RoomDatabase
 )
 abstract class ShoppingItemDatabase : RoomDatabase() {
 
-    abstract fun shoppingshoppingDao(): ShoppingDao
+    abstract fun shoppingDao(): ShoppingDao
 }
