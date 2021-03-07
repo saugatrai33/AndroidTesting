@@ -1,6 +1,7 @@
 package com.saugatrai.androidtesting
 
 import com.google.common.truth.Truth.assertThat
+import com.saugatrai.androidtesting.previous.RegistrationUtils
 import org.junit.Test
 
 class RegistrationUtilsTest {
